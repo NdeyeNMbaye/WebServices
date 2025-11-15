@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par Eclipse Implementation of JAXB, v3.0.2 
+Voir https://eclipse-ee4j.github.io/jaxb-ri 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2025.11.11 à 08:26:19 PM GMT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.esmt.com/banque">
+    <schemaBindings map="false">
+      <package name="com.groupeisi.m2gl"/>
+    </schemaBindings>
+    <bindings scd="tns:addClientRequest">
+      <class ref="com.groupeisi.m2gl.AddClientRequest"/>
+    </bindings>
+    <bindings scd="~tns:clientInfo">
+      <class ref="com.groupeisi.m2gl.ClientInfo"/>
+    </bindings>
+    <bindings scd="tns:ClientResponse">
+      <class ref="com.groupeisi.m2gl.ClientResponse"/>
+    </bindings>
+    <bindings scd="~tns:serviceStatus">
+      <class ref="com.groupeisi.m2gl.ServiceStatus"/>
+    </bindings>
+    <bindings scd="tns:getSoldeRequest">
+      <class ref="com.groupeisi.m2gl.GetSoldeRequest"/>
+    </bindings>
+    <bindings scd="tns:SoldeResponse">
+      <class ref="com.groupeisi.m2gl.SoldeResponse"/>
+    </bindings>
+    <bindings scd="tns:addTransferRequest">
+      <class ref="com.groupeisi.m2gl.AddTransferRequest"/>
+    </bindings>
+    <bindings scd="~tns:transferInfo">
+      <class ref="com.groupeisi.m2gl.TransferInfo"/>
+    </bindings>
+    <bindings scd="tns:TransferResponse">
+      <class ref="com.groupeisi.m2gl.TransferResponse"/>
+    </bindings>
+    <bindings scd="tns:addPaymentRequest">
+      <class ref="com.groupeisi.m2gl.AddPaymentRequest"/>
+    </bindings>
+    <bindings scd="~tns:paymentInfo">
+      <class ref="com.groupeisi.m2gl.PaymentInfo"/>
+    </bindings>
+    <bindings scd="tns:PaymentResponse">
+      <class ref="com.groupeisi.m2gl.PaymentResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+

@@ -1,6 +1,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:tns="http://www.esmt.com/banque"
-           targetNamespace="http://www.esmt.com/banque" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:tns="http://www.groupeisi.com/banque"
+           targetNamespace="http://www.groupeisi.com/banque" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            elementFormDefault="qualified">
 
     <xs:complexType name="clientInfo">
