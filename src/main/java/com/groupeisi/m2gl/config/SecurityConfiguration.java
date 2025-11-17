@@ -56,6 +56,7 @@ public class SecurityConfiguration {
             .authorizeHttpRequests(authz ->
                 // prettier-ignore
                 authz
+                    .requestMatchers("/ws/**").permitAll()
                     .requestMatchers("/h2/console/**").permitAll()
                     .requestMatchers("/graphql/**","/graphql/**").permitAll()
                     .requestMatchers(mvc.pattern("/api/authenticate")).permitAll()
